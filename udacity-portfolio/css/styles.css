@@ -24,7 +24,7 @@ header h3 {
 }
 
 /* Udacity logo in the header */
-#logo {
+	#logo {
 	height: auto;
 	width: 20%;
 	margin-left: auto;
@@ -50,8 +50,8 @@ header h3 {
 /* Adding Flexbox grid to each main section/div */
 .flex-grid {
 	display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -ms-flexbox;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
