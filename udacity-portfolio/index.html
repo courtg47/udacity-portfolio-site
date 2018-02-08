@@ -19,25 +19,25 @@
 </head>
 
 <body>
-	<header>
-		<img src="img/udacity-logo.png" alt="Udacity Logo" id="logo">
-		<div class="header-text">
+	<header class="flex-grid">
+		<img src="img/udacity-logo.png" alt="Udacity Logo" id="logo" class="col">
+		<div class="col header-text">
 			<h1>COURTNEY GREEN</h1>
 			<h3>Full Stack Web Developer</h3>
 		</div>
 	</header>
 
-	<main id="main-section">
-		<div id="main-image-section">
-			<img src="img/laptop-main-image.jpg" alt="Laptop" id="main-image">
+	<main id="main-section" class="flex-grid">
+		<div id="main-image-section" class="flex-grid">
+			<img src="img/laptop-main-image.jpg" alt="Laptop" id="main-image" class="col">
 		</div>
 
-		<div id="featured-work-headline">
-			<h2>Featured Work</h2>
+		<div id="featured-work-headline" class="flex-grid">
+			<h2 class="col">Featured Work</h2>
 		</div>
 
-		<div class="container">
-			<section class="projects" id="movie-trailer">
+		<div class="container flex-grid-thirds">
+			<section class="col projects" id="movie-trailer">
 				<img src="img/movie-trailer-site.png" alt="Movie Trailer Website" class="project-images">
 				<h3>Movie Trailer Website</h3>
 				<p>See the best space-themed movies. Includes movie title, poster image, and movie trailer.</p>
@@ -46,7 +46,7 @@
 				</form>
 			</section>
 
-			<section class="projects">
+			<section class="col projects">
 				<img src="img/wikipedia-image.png" alt="Wikipedia Search Web App" class="project-images">
 				<h3>Wikipedia Search Site</h3>
 				<p>Search Wikipedia and click on the results to go to the most relevant articles.</p>
@@ -55,7 +55,7 @@
 				</form>
 			</section>
 
-			<section class="projects">
+			<section class="col projects">
 				<img src="img/simon-game-image.png" alt="Simon Game" class="project-images">
 				<h3>Simon Game</h3>
 				<p>Play the classic memory game, Simon.</p>
