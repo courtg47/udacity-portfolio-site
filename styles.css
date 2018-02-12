@@ -1,0 +1,192 @@
+body {
+	font-size: 81.25%;
+	text-align: center;
+	font-family: "Encode Sans Expanded", sans-serif;
+	color: #2d3c49;
+}
+
+header {
+	border-bottom: 4.5px solid #7d97ad;
+	margin-bottom: 5%;
+}
+
+/* COURTNEY GREEN in header */
+header h1 {
+	font-size: 50px;
+	font-family: "Righteous", cursive;
+}
+
+/* Full Stack Web Developer title in header*/
+header h3 {
+	font-size: 25px;
+}
+
+/* Udacity logo in the header */
+.logo {
+	height: auto;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Main image at the top of screen */
+.main-image {
+	height: auto;
+	width: 100%;
+}
+
+/* Featured Work title */
+.featured-work-headline {
+	font-size: 20px;
+}
+
+/* Adding Flexbox grid to each main section/div */
+.flex-container {
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* Each individual project at the bottom of the page */
+.projects {
+	border-bottom: 4px solid #7d97ad;
+	padding-top: 5%;
+}
+
+/* Title for each project */
+.project-headline {
+	font-size: 27px;
+	text-decoration: underline;
+}
+
+/* Section containing Movie Trailer project */
+.movie-trailer {
+	margin-top: 1.3%;
+}
+
+/* Images related to each project */
+.project-images {
+	height: auto;
+	width: 87.5%;
+}
+
+/* Description of each project under the title */
+.project-description {
+	font-size: 18px;
+	padding: 0.2em 1em;
+}
+
+/* Buttons underneath each project */
+.project-button {
+	background-color: #02b3e4;
+	color: white;
+	font-size: 18px;
+	padding: 1em 2em;
+	margin-bottom: 1.5em;
+	cursor: pointer;
+}
+
+/* On hover effect for project buttons */
+.project-button:hover {
+	transition: all 0.5s ease 0s;
+	background-color: #0392B4;
+	color: white;
+}
+
+/* Tablet version */
+@media screen and (min-width: 750px) {
+	.logo {
+		height: auto;
+		width: 12%;
+		margin-top: 5%;
+	}
+
+	header h1 {
+		font-size: 60px;
+	}
+
+	header h3 {
+		font-size: 35px;
+	}
+
+	.featured-work-headline {
+		font-size: 30px;
+	}
+
+	.project-headline {
+		font-size: 37px;
+	}
+
+	.project-description {
+		font-size: 28px;
+		padding: 0.5em 1em;
+	}
+
+	.project-button {
+		font-size: 25px;
+	}
+}
+
+/* Desktop version */
+@media screen and (min-width: 1020px) {
+	.logo {
+		margin: 1.5em;
+		width: 10%;
+		margin-top: 4%;
+	}
+
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 3%;
+	}
+
+	.header-text {
+		text-align: right;
+		margin-top: -13.5%;
+	}
+
+	.featured-work-headline {
+		text-align: left;
+		font-size: 22px;
+	}
+
+  /* Shifting 3 project sections at bottom to row instead of column with flexbox */
+	.flex-grid-thirds {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+/* Creating equal thirds for 3 project sections at bottom of page */
+	.flex-grid-thirds .col {
+		width: 32%;
+	}
+
+	.projects {
+		border-bottom: none;
+		padding-top: 2%;
+	}
+
+	.project-headline {
+		font-size: 22px;
+	}
+
+	.project-description {
+		font-size: 18px;
+		padding: 0em 1em;
+		height: 20%;
+	}
+
+	.project-button {
+		font-size: 18px;
+		padding: 1em 2em;
+		margin-bottom: 1.5em;
+		margin-top: -1.5em;
+		cursor: pointer;
+	}
+}
