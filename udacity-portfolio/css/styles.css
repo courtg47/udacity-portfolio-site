@@ -1,23 +1,23 @@
 body {
-	font-size: 81.25%;
 	text-align: center;
-	font-family: "Encode Sans Expanded", sans-serif;
+	font: 81.25% "Encode Sans Expanded", sans-serif;
 	color: #2d3c49;
 }
 
-header {
+/* HEADER */
+.header {
 	border-bottom: 4.5px solid #7d97ad;
 	margin-bottom: 5%;
 }
 
 /* COURTNEY GREEN in header */
-header h1 {
+.header-name {
 	font-size: 50px;
 	font-family: "Righteous", cursive;
 }
 
 /* Full Stack Web Developer title in header*/
-header h3 {
+.header-title {
 	font-size: 25px;
 }
 
@@ -25,16 +25,18 @@ header h3 {
 .logo {
 	height: auto;
 	width: 20%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
+/* END HEADER */
 
-/* Main image at the top of screen */
+/* MAIN CONTENT */
+/* Main image underneath header */
 .main-image {
 	height: auto;
 	width: 100%;
 }
 
+/* PROJECTS SECTION */
 /* Featured Work title */
 .featured-work-headline {
 	font-size: 20px;
@@ -53,7 +55,7 @@ header h3 {
 /* Each individual project at the bottom of the page */
 .projects {
 	border-bottom: 4px solid #7d97ad;
-	padding-top: 5%;
+	padding: 5% 0 9% 0;
 }
 
 /* Title for each project */
@@ -77,42 +79,47 @@ header h3 {
 .project-description {
 	font-size: 18px;
 	padding: 0.2em 1em;
+	margin-bottom: 10%;
 }
 
-/* Buttons underneath each project */
+/* Links to Github underneath each project */
 .project-button {
 	background-color: #02b3e4;
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
-	padding: 1em 2em;
-	margin-bottom: 1.5em;
+	padding: 1em 1em;
 	cursor: pointer;
 }
 
 /* On hover effect for project buttons */
 .project-button:hover {
 	transition: all 0.5s ease 0s;
-	background-color: #0392B4;
+	background-color: #0392b4;
 	color: white;
 }
+/* END PROJECTS SECTION */
+/* END MAIN CONTENT */
 
 /* Tablet version */
 @media screen and (min-width: 750px) {
+
+	/* HEADER */
 	.logo {
-		height: auto;
 		width: 12%;
 		margin-top: 5%;
 	}
 
-	header h1 {
+	.header-name {
 		font-size: 60px;
 	}
 
-	header h3 {
+	.header-title {
 		font-size: 35px;
 	}
+	/* END HEADER */
 
+	/* MAIN CONTENT/PROJECTS SECTION */
 	.featured-work-headline {
 		font-size: 30px;
 	}
@@ -129,49 +136,54 @@ header h3 {
 	.project-button {
 		font-size: 25px;
 	}
+	/* END MAIN CONTENT/PROJECTS SECTION */
+
 }
 
 /* Desktop version */
 @media screen and (min-width: 1020px) {
+
+	/* HEADER */
 	.logo {
 		margin: 1.5em;
-		width: 10%;
 		margin-top: 4%;
 	}
 
-	header {
+	.header {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		padding-bottom: 3%;
+		padding-bottom: 1%;
 	}
 
 	.header-text {
 		text-align: right;
-		margin-top: -13.5%;
+		margin-top: 3%;
 	}
+	/* END HEADER */
 
+	/* MAIN CONTENT/PROJECTS SECTION */
 	.featured-work-headline {
 		text-align: left;
 		font-size: 22px;
 	}
 
-    /* Shifting 3 project sections at bottom to row instead of column with flexbox */
+   /* Shifting 3 project sections at bottom to row instead of column with flexbox */
 	.flex-grid-thirds {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-			margin: 5%;
+		margin: -2% 5% 5% 5%;
 	}
 
-    /* Creating equal thirds for 3 project sections at bottom of page */
+  /* Creating equal thirds for 3 project sections at bottom of page */
 	.flex-grid-thirds .col {
 		width: 32%;
 	}
 
 	.projects {
 		border-bottom: none;
-		padding-top: 2%;
+		padding: 2% 0 3% 0;
 	}
 
 	.project-headline {
@@ -180,15 +192,16 @@ header h3 {
 
 	.project-description {
 		font-size: 18px;
-		padding: 0em 1em;
+		padding: 0 1em;
 		height: 20%;
+		margin-bottom: 5%;
 	}
 
 	.project-button {
 		font-size: 18px;
+		margin: -1.5em 0 1.5em 0;
 		padding: 1em 2em;
-		margin-bottom: 1.5em;
-		margin-top: -1.5em;
-		cursor: pointer;
 	}
+	/* END MAIN CONTENT/PROJECTS SECTION */
+
 }
