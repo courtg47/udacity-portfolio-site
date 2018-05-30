@@ -43,8 +43,8 @@ header h3 {
 /* Adding Flexbox grid to each main section/div */
 .flex-container {
 	display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -ms-flexbox;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -82,6 +82,7 @@ header h3 {
 /* Buttons underneath each project */
 .project-button {
 	background-color: #02b3e4;
+	text-decoration: none;
 	color: white;
 	font-size: 18px;
 	padding: 1em 2em;
@@ -160,6 +161,7 @@ header h3 {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+			margin: 5%;
 	}
 
     /* Creating equal thirds for 3 project sections at bottom of page */
