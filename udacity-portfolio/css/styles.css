@@ -40,6 +40,7 @@ body {
 /* Featured Work title */
 .featured-work-headline {
 	font-size: 20px;
+	text-decoration: underline;
 }
 
 /* Adding Flexbox grid to each main section/div */
@@ -61,7 +62,6 @@ body {
 /* Title for each project */
 .project-headline {
 	font-size: 27px;
-	text-decoration: underline;
 }
 
 /* Section containing Movie Trailer project */
@@ -73,6 +73,7 @@ body {
 .project-images {
 	height: auto;
 	width: 87.5%;
+	box-shadow: 3px 3px 20px rgba(0,0,0,0.6);
 }
 
 /* Description of each project under the title */
@@ -145,8 +146,9 @@ body {
 
 	/* HEADER */
 	.logo {
+		width: 150px;
+		height: 150px;
 		margin: 1.5em;
-		margin-top: 4%;
 	}
 
 	.header {
@@ -158,20 +160,26 @@ body {
 
 	.header-text {
 		text-align: right;
-		margin-top: 3%;
+		margin: -2% 2% 0 0;
 	}
 	/* END HEADER */
 
+	.main-image {
+		margin-top: -3%;
+	}
+
 	/* MAIN CONTENT/PROJECTS SECTION */
 	.featured-work-headline {
-		text-align: left;
+		text-align: center;
 		font-size: 22px;
+		margin-bottom: 3%;
 	}
 
    /* Shifting 3 project sections at bottom to row instead of column with flexbox */
 	.flex-grid-thirds {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		margin: -2% 5% 5% 5%;
 	}
@@ -184,6 +192,11 @@ body {
 	.projects {
 		border-bottom: none;
 		padding: 2% 0 3% 0;
+		margin-bottom: 3%;
+	}
+
+	.project-images {
+		width: 90%;
 	}
 
 	.project-headline {
@@ -192,14 +205,14 @@ body {
 
 	.project-description {
 		font-size: 18px;
-		padding: 0 1em;
+		padding: 0.5em 1em;
 		height: 20%;
 		margin-bottom: 5%;
 	}
 
 	.project-button {
 		font-size: 18px;
-		margin: -1.5em 0 1.5em 0;
+		margin: -1.5em 0 2em 0;
 		padding: 1em 2em;
 	}
 	/* END MAIN CONTENT/PROJECTS SECTION */
