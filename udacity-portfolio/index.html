@@ -3,93 +3,92 @@
 
 <head>
 
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 
-	<title>Courtney Green - Full Stack Web Developer</title>
+  <title>Courtney Green - Full Stack Web Developer</title>
 
-	<meta name="description" content="Portfolio website for Courtney Green, Full Stack Web Developer.">
+  <meta name="description" content="Portfolio website for Courtney Green, Full Stack Web Developer.">
 
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Righteous" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Righteous" rel="stylesheet">
 
-	<!-- Setting the viewport for responsiveness -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Setting the viewport for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Link to CSS directory -->
-	<link href="css/styles.css" rel="stylesheet">
+  <!-- Link to CSS directory -->
+  <link href="css/styles.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-	<!-- Header with logo and title -->
-	<header class="header flex-container">
-		<img src="img/udacity-logo.png" alt="Udacity Logo" class="col logo">
-		<div class="col header-text">
-			<h1 class="header-name">COURTNEY GREEN</h1>
-			<h3 class="header-title">Full Stack Web Developer</h3>
-		</div>
-	</header>
+  <!-- Header with logo and title -->
+  <header class="header flex-container">
+    <img src="img/udacity-logo.png" alt="Udacity Logo" class="col logo">
+    <div class="col header-text">
+      <h1 class="header-name">COURTNEY GREEN</h1>
+      <h3 class="header-title">Full Stack Web Developer</h3>
+    </div>
+  </header>
 
-	<main class="flex-container">
+  <main class="flex-container">
+    <!-- Large image underneath header -->
+    <div class="flex-container">
+    <img src="img/laptop-main-image.jpg" alt="Laptop" class="col main-image">
+  </div>
 
-		<!-- Large image underneath header -->
-		<div class="flex-container">
-			<img src="img/laptop-main-image.jpg" alt="Laptop" class="col main-image">
-		</div>
+  <section class="flex-container featured-work-headline">
+    <h2 class="col">Featured Work</h2>
+  </section>
 
-		<section class="flex-container featured-work-headline">
-			<h2 class="col">Featured Work</h2>
-		</section>
+  <!-- Contains all portfolio projects with image, title, description, and link -->
+  <section class="flex-container flex-grid-thirds">
 
-		<!-- Contains all portfolio projects with image, title, description, and link -->
-		<section class="flex-container flex-grid-thirds">
+  <article class="col projects">
+    <img src="img/exercise-catalog1.png" alt="Exercise Catalog" class="project-images">
+    <h3 class="project-headline">Green Machine Exercise Catalog</h3>
+    <p class="project-description">Python/Flask CRUD Application which showcases various exercises and allows users to login, create, edit, and delete their own exercises.</p>
+    <a href="https://github.com/courtg47/exercise-catalog" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects">
-				<img src="img/exercise-catalog1.png" alt="Exercise Catalog" class="project-images">
-				<h3 class="project-headline">Green Machine Exercise Catalog</h3>
-				<p class="project-description">Python/Flask CRUD Application which showcases various exercises and allows users to login, create, edit, and delete their own exercises.</p>
-				<a href="https://github.com/courtg47/exercise-catalog" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  <article class="col projects">
+    <img src="img/breweries-map.png" alt="Breweries of Birmingham Map" class="project-images">
+    <h3 class="project-headline">Breweries of Birmingham Maps App</h3>
+    <p class="project-description">A map of popular brewery locations in Birmingham, AL utilizing KnockoutJS and Google Maps/Foursquare APIs.</p>
+    <a href="https://github.com/courtg47/breweries-map" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects">
-				<img src="img/breweries-map.png" alt="Breweries of Birmingham Map" class="project-images">
-				<h3 class="project-headline">Breweries of Birmingham Maps App</h3>
-				<p class="project-description">A map of popular brewery locations in Birmingham, AL utilizing KnockoutJS and Google Maps/Foursquare APIs.</p>
-				<a href="https://github.com/courtg47/breweries-map" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  <article class="col projects">
+    <img src="img/logs-analysis-2-1.png" alt="Logs Analysis Tool" class="project-images">
+    <h3 class="project-headline">Logs Analysis Reporting Tool</h3>
+    <p class="project-description">Logs analysis reporting tool which analyzes a PostgreSQL database of a fictional newspaper site with Python DB-API.</p>
+    <a href="https://github.com/courtg47/logs-analysis-reporting-tool" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects">
-				<img src="img/logs-analysis-2-1.png" alt="Logs Analysis Tool" class="project-images">
-				<h3 class="project-headline">Logs Analysis Reporting Tool</h3>
-				<p class="project-description">Logs analysis reporting tool which analyzes a PostgreSQL database of a fictional newspaper site with Python DB-API.</p>
-				<a href="https://github.com/courtg47/logs-analysis-reporting-tool" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  <article class="col projects">
+    <img src="img/exercise-catalog2.png" alt="Linux Server Configuration" class="project-images">
+    <h3 class="project-headline">Linux Server Configuration</h3>
+    <p class="project-description">Takes a baseline installation of Ubuntu Linux on AWS Lightsail and prepares it to host the Exercise Catalog web application.</p>
+    <a href="https://github.com/courtg47/linux-server-configuration" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects">
-				<img src="img/exercise-catalog2.png" alt="Linux Server Configuration" class="project-images">
-				<h3 class="project-headline">Linux Server Configuration</h3>
-				<p class="project-description">Takes a baseline installation of Ubuntu Linux on AWS Lightsail and prepares it to host the Exercise Catalog web application.</p>
-				<a href="https://github.com/courtg47/linux-server-configuration" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  <article class="col projects movie-trailer">
+    <img src="img/movie-trailer-site.png" alt="Movie Trailer Website" class="project-images movie-trailer">
+    <h3 class="project-headline">Movie Trailer Website</h3>
+    <p class="project-description">See the best space-themed movies around with this Python web site. Includes movie posters and trailers.</p>
+    <a href="https://github.com/courtg47/movie-trailer-website" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects movie-trailer">
-				<img src="img/movie-trailer-site.png" alt="Movie Trailer Website" class="project-images movie-trailer">
-				<h3 class="project-headline">Movie Trailer Website</h3>
-				<p class="project-description">See the best space-themed movies around with this Python web site. Includes movie posters and trailers.</p>
-				<a href="https://github.com/courtg47/movie-trailer-website" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  <article class="col projects">
+    <img src="img/simon-game-2.png" alt="Simon Game" class="project-images">
+    <h3 class="project-headline">Simon Game</h3>
+    <p class="project-description">Play the classic memory game, Simon. Made with HTML, CSS, JavaScript, and jQuery.</p>
+    <a href="https://github.com/courtg47/Simon-Game" target="_blank" class="project-button">See project on Github</a>
+  </article>
 
-			<article class="col projects">
-				<img src="img/simon-game-2.png" alt="Simon Game" class="project-images">
-				<h3 class="project-headline">Simon Game</h3>
-				<p class="project-description">Play the classic memory game, Simon. Made with HTML, CSS, JavaScript, and jQuery.</p>
-				<a href="https://github.com/courtg47/Simon-Game" target="_blank" class="project-button">See project on Github</a>
-			</article>
+  </section>
 
-		</section>
-
-	</main>
+  </main>
 
 </body>
 
