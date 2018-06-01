@@ -213,7 +213,11 @@ body {
 	.project-button {
 		font-size: 18px;
 		margin: -1.5em 0 2em 0;
-		padding: 1em 2em;
+		padding: 0.6em 2em;
+	}
+
+	.movie-trailer {
+		margin-top: -0.3%;
 	}
 	/* END MAIN CONTENT/PROJECTS SECTION */
 
