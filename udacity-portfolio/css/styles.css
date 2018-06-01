@@ -107,35 +107,35 @@ body {
 
   /* HEADER */
   .logo {
-  width: 12%;
-  margin-top: 5%;
+    width: 12%;
+    margin-top: 5%;
   }
 
   .header-name {
-  font-size: 60px;
+    font-size: 60px;
   }
 
   .header-title {
-  font-size: 35px;
+    font-size: 35px;
   }
   /* END HEADER */
 
   /* MAIN CONTENT/PROJECTS SECTION */
   .featured-work-headline {
-  font-size: 30px;
+    font-size: 30px;
   }
 
   .project-headline {
-  font-size: 37px;
+    font-size: 37px;
   }
 
   .project-description {
-  font-size: 28px;
-  padding: 0.5em 1em;
+    font-size: 28px;
+    padding: 0.5em 1em;
   }
 
   .project-button {
-  font-size: 25px;
+    font-size: 25px;
   }
   /* END MAIN CONTENT/PROJECTS SECTION */
 
@@ -146,78 +146,78 @@ body {
 
   /* HEADER */
   .logo {
-  width: 150px;
-  height: 150px;
-  margin: 1.5em;
+    width: 150px;
+    height: 150px;
+    margin: 1.5em;
   }
 
   .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1%;
   }
 
   .header-text {
-  text-align: right;
-  margin: -2% 2% 0 0;
+    text-align: right;
+    margin: -2% 2% 0 0;
   }
   /* END HEADER */
 
   .main-image {
-  margin-top: -3%;
+    margin-top: -3%;
   }
 
   /* MAIN CONTENT/PROJECTS SECTION */
   .featured-work-headline {
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 3%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 3%;
   }
 
    /* Shifting 3 project sections at bottom to row instead of column with flexbox */
   .flex-grid-thirds {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: -2% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -2% 5% 5% 5%;
   }
 
   /* Creating equal thirds for 3 project sections at bottom of page */
   .flex-grid-thirds .col {
-  width: 32%;
+    width: 32%;
   }
 
   .projects {
-  border-bottom: none;
-  padding: 2% 0 3% 0;
-  margin-bottom: 3%;
+    border-bottom: none;
+    padding: 2% 0 3% 0;
+    margin-bottom: 3%;
   }
 
   .project-images {
-  width: 90%;
+    width: 90%;
   }
 
   .project-headline {
-  font-size: 22px;
+    font-size: 22px;
   }
 
   .project-description {
-  font-size: 18px;
-  padding: 0.5em 1em;
-  height: 20%;
-  margin-bottom: 5%;
+    font-size: 18px;
+    padding: 0.5em 1em;
+    height: 20%;
+    margin-bottom: 5%;
   }
 
   .project-button {
-  font-size: 18px;
-  margin: -1.5em 0 2em 0;
-  padding: 0.6em 2em;
+    font-size: 18px;
+    margin: -1.5em 0 2em 0;
+    padding: 0.6em 2em;
   }
 
   .movie-trailer {
-  margin-top: -0.3%;
+    margin-top: -0.3%;
   }
   /* END MAIN CONTENT/PROJECTS SECTION */
 
